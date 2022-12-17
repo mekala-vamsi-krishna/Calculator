@@ -12,8 +12,8 @@
 		15325B77294CAC1300E211C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15325B76294CAC1300E211C7 /* Assets.xcassets */; };
 		15325B7A294CAC1300E211C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15325B78294CAC1300E211C7 /* LaunchScreen.storyboard */; };
 		15325B8D294CACB200E211C7 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15325B87294CACB000E211C7 /* CalculatorLogic.swift */; };
-		15325B8E294CACB200E211C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15325B89294CACB100E211C7 /* Main.storyboard */; };
 		15325B8F294CACB200E211C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15325B8C294CACB100E211C7 /* ViewController.swift */; };
+		15C3143E294CAFD1002D0A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C3143C294CAFD0002D0A39 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		15325B79294CAC1300E211C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15325B7B294CAC1300E211C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15325B87294CACB000E211C7 /* CalculatorLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
-		15325B8A294CACB100E211C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15325B8C294CACB100E211C7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15C3143D294CAFD1002D0A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				15325B6D294CAC1100E211C7 /* AppDelegate.swift */,
 				15325B6F294CAC1100E211C7 /* SceneDelegate.swift */,
 				15325B86294CACB000E211C7 /* Model */,
-				15325B88294CACB100E211C7 /* View */,
+				15C3143B294CAFD0002D0A39 /* View */,
 				15325B8B294CACB100E211C7 /* Controller */,
 				15325B76294CAC1300E211C7 /* Assets.xcassets */,
 				15325B78294CAC1300E211C7 /* LaunchScreen.storyboard */,
@@ -78,21 +78,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		15325B88294CACB100E211C7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				15325B89294CACB100E211C7 /* Main.storyboard */,
-			);
-			name = View;
-			path = "../../../../Calculator-Advanced-Swift-iOS13 7.06.13 PM/Calculator/View";
-			sourceTree = "<group>";
-		};
 		15325B8B294CACB100E211C7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				15325B8C294CACB100E211C7 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		15C3143B294CAFD0002D0A39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15C3143C294CAFD0002D0A39 /* Main.storyboard */,
+			);
+			name = View;
+			path = "../../../../../Downloads/Calculator-Advanced-Swift-iOS13-Completed-master/Calculator/View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15325B8E294CACB200E211C7 /* Main.storyboard in Resources */,
+				15C3143E294CAFD1002D0A39 /* Main.storyboard in Resources */,
 				15325B7A294CAC1300E211C7 /* LaunchScreen.storyboard in Resources */,
 				15325B77294CAC1300E211C7 /* Assets.xcassets in Resources */,
 			);
@@ -184,10 +184,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		15325B89294CACB100E211C7 /* Main.storyboard */ = {
+		15C3143C294CAFD0002D0A39 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15325B8A294CACB100E211C7 /* Base */,
+				15C3143D294CAFD1002D0A39 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
